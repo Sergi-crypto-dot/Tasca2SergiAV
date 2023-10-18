@@ -1,5 +1,49 @@
-*{
-    padding: 0px;
+* {
+    padding: 0;
     margin: 0;
     background-color: crimson;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#titol {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#cos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+article {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    display: flex; /* Añadimos esta propiedad para colocar imagen y texto en línea. */
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+p {
+    text-align: left;
+    flex: 1; /* Hacemos que el texto ocupe todo el espacio restante en el artículo. */
+}
+
+#peu {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
